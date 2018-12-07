@@ -9,7 +9,7 @@ void Player::inventory() {
 
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 6); // gul färg
 	cout << endl << "  ¤&¤&¤&¤&¤&¤&¤&¤&¤&¤&¤&¤&¤&¤&¤&¤&¤" << endl;
-	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15); // vanlig textfärg
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15); // vanlig ljus textfärg
 	cout << "    Inventory:" << endl;
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 6); // gul färg
 	cout << "  ---------------------------------" << endl;
